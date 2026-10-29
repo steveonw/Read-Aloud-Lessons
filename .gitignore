@@ -1,0 +1,18 @@
+# everything the tools generate is rebuilt from code: keep the repo small
+*.png
+*.jpg
+*.mp4
+*.wav
+*.mp3
+*.srt
+*_timing.json
+*_chapters.txt
+labels.txt
+validation.md
+tts_cache/
+tts/
+out/
+__pycache__/
+# except the preview pictures used by the README
+!docs/*.png
+!docs/*.jpg
