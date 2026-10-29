@@ -1,0 +1,4 @@
+# Boards and rendering (always needed). Also install ffmpeg/ffprobe from your package manager.
+Pillow>=10
+matplotlib>=3.7
+numpy>=1.24

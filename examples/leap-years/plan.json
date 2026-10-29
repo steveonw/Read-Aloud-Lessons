@@ -1,0 +1,668 @@
+{
+ "title": "Why Leap Years Exist",
+ "width": 1920,
+ "fps": 24,
+ "captions": false,
+ "audio": "narration.wav",
+ "timestamps": "labels.txt",
+ "cast": {
+  "narrator": "af_heart",
+  "student": {
+   "kokoro": "am_adam",
+   "kitten": 3
+  },
+  "teacher": {
+   "kokoro": "bf_emma",
+   "kitten": 2
+  }
+ },
+ "scenes": [
+  {
+   "title": "Why February gets an extra day",
+   "image": "page01.png",
+   "marks": {
+    "F29": {
+     "box": [
+      0.052,
+      0.2764,
+      0.4458,
+      0.4036
+     ]
+    },
+    "def": {
+     "box": [
+      0.052,
+      0.4957,
+      0.6165,
+      0.6343
+     ]
+    },
+    "almost": {
+     "box": [
+      0.052,
+      0.7026,
+      0.4122,
+      0.7774
+     ]
+    }
+   },
+   "lines": [
+    {
+     "text": "Every few years, February gets an extra day, the twenty ninth.",
+     "mark": "F29"
+    },
+    {
+     "text": "Why does February get a bonus day at all?",
+     "speaker": "student"
+    },
+    {
+     "text": "Because our calendar has to keep pace with the Sun, and the Sun does not count in whole days.",
+     "mark": "def",
+     "speaker": "teacher"
+    },
+    {
+     "text": "A leap day is a small correction that keeps the seasons where we expect them.",
+     "mark": "def",
+     "speaker": "teacher"
+    },
+    {
+     "text": "And it really comes every four years?",
+     "mark": "almost",
+     "speaker": "student"
+    },
+    {
+     "text": "Almost every four years, and that word almost is the whole story.",
+     "mark": "almost",
+     "speaker": "teacher"
+    }
+   ],
+   "panel": [
+    0,
+    0,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "title": "A year is not whole days",
+   "image": "page01.png",
+   "marks": {
+    "Y": {
+     "box": [
+      0.052,
+      0.3318,
+      0.3814,
+      0.4282
+     ]
+    },
+    "extra": {
+     "box": [
+      0.052,
+      0.4742,
+      0.3742,
+      0.5458
+     ]
+    },
+    "cal": {
+     "box": [
+      0.052,
+      0.5957,
+      0.4985,
+      0.6643
+     ]
+    },
+    "four": {
+     "box": [
+      0.052,
+      0.7111,
+      0.4446,
+      0.7889
+     ]
+    },
+    "left": {
+     "box": [
+      0.868,
+      0.5318,
+      0.958,
+      0.6482
+     ]
+    }
+   },
+   "lines": [
+    {
+     "text": "Earth takes about three hundred sixty five point two four two two days to go once around the Sun.",
+     "mark": "Y"
+    },
+    {
+     "text": "That is three hundred sixty five days, plus about five hours and forty nine minutes.",
+     "mark": "extra",
+     "speaker": "teacher"
+    },
+    {
+     "text": "But a calendar year can only hold whole days, so it stops at three hundred sixty five.",
+     "mark": "cal",
+     "speaker": "teacher"
+    },
+    {
+     "text": "So every year the calendar falls a little short?",
+     "mark": "left",
+     "speaker": "student"
+    },
+    {
+     "text": "Yes, almost a quarter of a day short, every single year.",
+     "mark": "left",
+     "speaker": "teacher"
+    },
+    {
+     "text": "After four years, those quarters add up to nearly one whole day.",
+     "mark": "four",
+     "speaker": "teacher"
+    }
+   ],
+   "panel": [
+    0.5,
+    0,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "title": "Caesar's fix",
+   "image": "page01.png",
+   "marks": {
+    "jul": {
+     "box": [
+      0.052,
+      0.2357,
+      0.4859,
+      0.3043
+     ]
+    },
+    "rule4": {
+     "box": [
+      0.052,
+      0.3626,
+      0.4896,
+      0.4374
+     ]
+    },
+    "avg": {
+     "box": [
+      0.052,
+      0.4926,
+      0.4188,
+      0.5674
+     ]
+    },
+    "err": {
+     "box": [
+      0.052,
+      0.6242,
+      0.4493,
+      0.7658
+     ]
+    },
+    "take1": {
+     "box": [
+      0.052,
+      0.8657,
+      0.3274,
+      0.9343
+     ]
+    }
+   },
+   "lines": [
+    {
+     "text": "More than two thousand years ago, Julius Caesar fixed this with a simple rule.",
+     "mark": "jul"
+    },
+    {
+     "text": "Add one extra day to every fourth year.",
+     "mark": "rule4",
+     "speaker": "teacher"
+    },
+    {
+     "text": "Three short years and one long year average out to three hundred sixty five and a quarter days.",
+     "mark": "avg",
+     "speaker": "teacher"
+    },
+    {
+     "text": "That sounds perfect.",
+     "speaker": "student"
+    },
+    {
+     "text": "Close, but it is too long by about eleven minutes every year.",
+     "mark": "err",
+     "speaker": "teacher"
+    },
+    {
+     "text": "Eleven minutes sounds tiny, but small errors pile up.",
+     "mark": "take1",
+     "speaker": "teacher"
+    }
+   ],
+   "panel": [
+    0,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "title": "Eleven minutes a year adds up",
+   "image": "page01.png",
+   "marks": {
+    "chart": {
+     "box": [
+      0.082,
+      0.2658,
+      0.538,
+      0.8142
+     ]
+    },
+    "G1582": {
+     "ring": [
+      0.5173,
+      0.3359
+     ],
+     "r": 0.04
+    },
+    "nicaea": {
+     "box": [
+      0.572,
+      0.3088,
+      0.8912,
+      0.4312
+     ]
+    },
+    "ten": {
+     "box": [
+      0.572,
+      0.5173,
+      0.8374,
+      0.5827
+     ]
+    },
+    "mar11": {
+     "box": [
+      0.572,
+      0.6388,
+      0.7845,
+      0.7612
+     ]
+    }
+   },
+   "lines": [
+    {
+     "text": "This graph shows how far the Julian calendar drifted from the Sun.",
+     "mark": "chart"
+    },
+    {
+     "text": "In the year three twenty five, church leaders tied the spring equinox to March twenty first.",
+     "mark": "nicaea",
+     "speaker": "teacher"
+    },
+    {
+     "text": "From then on, the gap grew by eleven minutes every year.",
+     "mark": "chart",
+     "speaker": "teacher"
+    },
+    {
+     "text": "By fifteen eighty two, the calendar was about ten days out of step.",
+     "mark": [
+      "G1582",
+      "ten"
+     ],
+     "speaker": "teacher"
+    },
+    {
+     "text": "So the first day of spring had slid back to March eleventh?",
+     "mark": "mar11",
+     "speaker": "student"
+    },
+    {
+     "text": "Exactly, and Easter, which is set from that date, was drifting too.",
+     "mark": "mar11",
+     "speaker": "teacher"
+    }
+   ],
+   "panel": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "title": "Gregory's sharper rule",
+   "image": "page02.png",
+   "marks": {
+    "greg": {
+     "box": [
+      0.052,
+      0.2357,
+      0.5056,
+      0.3043
+     ]
+    },
+    "r1": {
+     "box": [
+      0.052,
+      0.3642,
+      0.4358,
+      0.4358
+     ]
+    },
+    "r2": {
+     "box": [
+      0.052,
+      0.4642,
+      0.5368,
+      0.5358
+     ]
+    },
+    "r3": {
+     "box": [
+      0.052,
+      0.5642,
+      0.568,
+      0.6358
+     ]
+    },
+    "avg2": {
+     "box": [
+      0.052,
+      0.7126,
+      0.4519,
+      0.7874
+     ]
+    }
+   },
+   "lines": [
+    {
+     "text": "In fifteen eighty two, Pope Gregory the thirteenth introduced a sharper rule.",
+     "mark": "greg"
+    },
+    {
+     "text": "Years divisible by four are still leap years.",
+     "mark": "r1",
+     "speaker": "teacher"
+    },
+    {
+     "text": "But century years, like nineteen hundred, are not.",
+     "mark": "r2",
+     "speaker": "teacher"
+    },
+    {
+     "text": "Unless the century year divides by four hundred, like the year two thousand.",
+     "mark": "r3",
+     "speaker": "teacher"
+    },
+    {
+     "text": "So three leap days get dropped every four hundred years?",
+     "mark": [
+      "r2",
+      "r3"
+     ],
+     "speaker": "student"
+    },
+    {
+     "text": "Right, and that brings the average year to three hundred sixty five point two four two five days.",
+     "mark": "avg2",
+     "speaker": "teacher"
+    }
+   ],
+   "panel": [
+    0,
+    0,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "title": "Ten days that never happened",
+   "image": "page02.png",
+   "marks": {
+    "d4": {
+     "box": [
+      0.052,
+      0.2595,
+      0.4642,
+      0.3405
+     ]
+    },
+    "d15": {
+     "box": [
+      0.052,
+      0.4595,
+      0.4352,
+      0.5405
+     ]
+    },
+    "uk": {
+     "box": [
+      0.052,
+      0.6488,
+      0.6471,
+      0.7712
+     ]
+    }
+   },
+   "lines": [
+    {
+     "text": "To put the seasons back in place, ten days were simply skipped."
+    },
+    {
+     "text": "In much of Catholic Europe, Thursday October fourth was followed by Friday October fifteenth.",
+     "mark": [
+      "d4",
+      "d15"
+     ],
+     "speaker": "teacher"
+    },
+    {
+     "text": "People went to bed and woke up ten days later?",
+     "mark": "d15",
+     "speaker": "student"
+    },
+    {
+     "text": "On paper, yes, though nobody actually lost any sleep.",
+     "speaker": "teacher"
+    },
+    {
+     "text": "Britain and its American colonies waited until seventeen fifty two, and by then they had to skip eleven days.",
+     "mark": "uk",
+     "speaker": "teacher"
+    }
+   ],
+   "panel": [
+    0.5,
+    0,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "title": "Three numbers side by side",
+   "image": "page02.png",
+   "marks": {
+    "real": {
+     "box": [
+      0.052,
+      0.2642,
+      0.4535,
+      0.3358
+     ]
+    },
+    "jrow": {
+     "box": [
+      0.052,
+      0.4042,
+      0.6067,
+      0.4758
+     ]
+    },
+    "grow": {
+     "box": [
+      0.052,
+      0.5442,
+      0.7354,
+      0.6158
+     ]
+    },
+    "take2": {
+     "box": [
+      0.052,
+      0.8657,
+      0.7651,
+      0.9343
+     ]
+    }
+   },
+   "lines": [
+    {
+     "text": "Let's put the three numbers side by side."
+    },
+    {
+     "text": "The real solar year is about three hundred sixty five point two four two two days.",
+     "mark": "real",
+     "speaker": "teacher"
+    },
+    {
+     "text": "The Julian rule drifts one whole day every hundred and twenty eight years.",
+     "mark": "jrow",
+     "speaker": "teacher"
+    },
+    {
+     "text": "The Gregorian rule drifts one day in more than three thousand years.",
+     "mark": "grow",
+     "speaker": "teacher"
+    },
+    {
+     "text": "Leap rules exist to keep the calendar in step with the seasons.",
+     "mark": "take2"
+    }
+   ],
+   "panel": [
+    0,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "title": "Test yourself",
+   "image": "page02.png",
+   "marks": {
+    "q": {
+     "box": [
+      0.052,
+      0.3457,
+      0.5784,
+      0.4543
+     ]
+    },
+    "hint": {
+     "box": [
+      0.052,
+      0.5673,
+      0.6538,
+      0.6327
+     ]
+    }
+   },
+   "lines": [
+    {
+     "text": "Now it's your turn to test yourself."
+    },
+    {
+     "text": "Using the three rules, is the year twenty one hundred a leap year?",
+     "mark": "q",
+     "pause_after": 5
+    }
+   ],
+   "panel": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "title": "Answer",
+   "image": "board03.png",
+   "marks": {
+    "a1": {
+     "box": [
+      0.052,
+      0.2426,
+      0.4913,
+      0.3174
+     ]
+    },
+    "a2": {
+     "box": [
+      0.052,
+      0.3626,
+      0.526,
+      0.4374
+     ]
+    },
+    "a3": {
+     "box": [
+      0.052,
+      0.4826,
+      0.6167,
+      0.5574
+     ]
+    },
+    "ans": {
+     "box": [
+      0.052,
+      0.6265,
+      0.6041,
+      0.7135
+     ]
+    },
+    "bonus": {
+     "box": [
+      0.052,
+      0.7826,
+      0.449,
+      0.8574
+     ]
+    }
+   },
+   "lines": [
+    {
+     "text": "Twenty one hundred divides by four, so it starts out looking like a leap year.",
+     "mark": "a1",
+     "speaker": "teacher"
+    },
+    {
+     "text": "But it is a century year, because it divides by one hundred.",
+     "mark": "a2",
+     "speaker": "teacher"
+    },
+    {
+     "text": "And it does not divide by four hundred.",
+     "mark": "a3",
+     "speaker": "teacher"
+    },
+    {
+     "text": "So twenty one hundred gets no February twenty ninth!",
+     "mark": "ans",
+     "speaker": "student"
+    },
+    {
+     "text": "That's right, while the year two thousand did get one, because it divides by four hundred.",
+     "mark": "bonus",
+     "speaker": "teacher"
+    },
+    {
+     "text": "So the next time February has twenty nine days, thank Julius Caesar and Pope Gregory."
+    }
+   ]
+  }
+ ]
+}

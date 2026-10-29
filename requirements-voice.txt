@@ -1,0 +1,7 @@
+# Local narration (tools/narrate.py) and the listen-free check (tools/check_audio.py).
+# Kokoro v1.0 voice:
+onnxruntime>=1.17
+espeakng-loader
+phonemizer-fork
+# Kitten/Piper voices and the speech-recognition check (2.x needs a lexicon file for Kitten):
+sherpa-onnx==1.13.4

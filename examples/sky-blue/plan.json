@@ -1,0 +1,783 @@
+{
+ "title": "Why the sky is blue but sunsets are red",
+ "width": 1920,
+ "fps": 24,
+ "captions": false,
+ "audio": "narration.wav",
+ "timestamps": "labels.txt",
+ "scenes": [
+  {
+   "title": "Two skies, one sun",
+   "image": "board01.png",
+   "marks": {
+    "noon": {
+     "box": [
+      0.037,
+      0.2096,
+      0.513,
+      0.5142
+     ]
+    },
+    "sunset": {
+     "box": [
+      0.037,
+      0.5258,
+      0.513,
+      0.8304
+     ]
+    },
+    "E1": {
+     "box": [
+      0.547,
+      0.2641,
+      0.6917,
+      0.3359
+     ]
+    },
+    "E2": {
+     "box": [
+      0.547,
+      0.3691,
+      0.6791,
+      0.4409
+     ]
+    },
+    "E3": {
+     "box": [
+      0.547,
+      0.4741,
+      0.7769,
+      0.5459
+     ]
+    },
+    "F": {
+     "box": [
+      0.062,
+      0.8712,
+      0.7685,
+      0.9338
+     ]
+    }
+   },
+   "lines": [
+    {
+     "text": "Look up at noon on a clear day, and the sky is a deep, clean blue.",
+     "mark": "noon"
+    },
+    {
+     "text": "Look again at sunset, and the same sky glows orange and red.",
+     "mark": "sunset"
+    },
+    {
+     "text": "The sun is the same star, sending out the same light.",
+     "mark": "E1"
+    },
+    {
+     "text": "The air is the same mix of nitrogen and oxygen.",
+     "mark": "E2"
+    },
+    {
+     "text": "So why do we see such different colors?",
+     "mark": "E3"
+    },
+    {
+     "text": "The answer is the path the light takes through the air, and we will build it one step at a time.",
+     "mark": "F"
+    }
+   ]
+  },
+  {
+   "title": "Sunlight holds every color",
+   "image": "board02.png",
+   "marks": {
+    "spectrum": {
+     "box": [
+      0.052,
+      0.3272,
+      0.508,
+      0.6528
+     ]
+    },
+    "G:450": {
+     "ring": [
+      0.1432,
+      0.49
+     ],
+     "r": 0.05
+    },
+    "G:700": {
+     "ring": [
+      0.4405,
+      0.49
+     ],
+     "r": 0.05
+    },
+    "N1": {
+     "box": [
+      0.547,
+      0.2687,
+      0.8707,
+      0.3313
+     ]
+    },
+    "E1": {
+     "box": [
+      0.547,
+      0.3737,
+      0.8513,
+      0.4363
+     ]
+    },
+    "E2": {
+     "box": [
+      0.547,
+      0.4787,
+      0.7694,
+      0.5413
+     ]
+    },
+    "E3": {
+     "box": [
+      0.547,
+      0.5837,
+      0.7629,
+      0.6463
+     ]
+    },
+    "F": {
+     "box": [
+      0.062,
+      0.8712,
+      0.6028,
+      0.9338
+     ]
+    }
+   },
+   "lines": [
+    {
+     "text": "Sunlight looks white, but it is really every color of the rainbow mixed together.",
+     "mark": "N1"
+    },
+    {
+     "text": "Each color is light with a different wavelength, the distance from one wave crest to the next.",
+     "mark": "spectrum"
+    },
+    {
+     "text": "We measure these waves in nanometers, which are billionths of a meter.",
+     "mark": "spectrum"
+    },
+    {
+     "text": "The light our eyes can see runs from about three hundred eighty to seven hundred fifty nanometers.",
+     "mark": "E1"
+    },
+    {
+     "text": "Blue light has short waves, around four hundred fifty nanometers.",
+     "mark": [
+      "E2",
+      "G:450"
+     ]
+    },
+    {
+     "text": "Red light has long waves, around seven hundred nanometers.",
+     "mark": [
+      "E3",
+      "G:700"
+     ]
+    },
+    {
+     "text": "Short waves look blue, long waves look red, and the whole story depends on that difference.",
+     "mark": "F"
+    }
+   ]
+  },
+  {
+   "title": "Tiny molecules scatter short waves",
+   "image": "board03.png",
+   "marks": {
+    "chart": {
+     "box": [
+      0.062,
+      0.2572,
+      0.488,
+      0.7828
+     ]
+    },
+    "G:b450": {
+     "ring": [
+      0.1611,
+      0.4912
+     ],
+     "r": 0.04
+    },
+    "G:r700": {
+     "ring": [
+      0.4458,
+      0.7224
+     ],
+     "r": 0.04
+    },
+    "E1": {
+     "box": [
+      0.547,
+      0.2666,
+      0.8388,
+      0.3534
+     ]
+    },
+    "E2": {
+     "box": [
+      0.547,
+      0.4001,
+      0.8028,
+      0.4799
+     ]
+    },
+    "N1": {
+     "box": [
+      0.547,
+      0.6237,
+      0.8577,
+      0.6863
+     ]
+    },
+    "N2": {
+     "box": [
+      0.547,
+      0.7387,
+      0.8549,
+      0.8013
+     ]
+    },
+    "F": {
+     "box": [
+      0.062,
+      0.8712,
+      0.8841,
+      0.9338
+     ]
+    }
+   },
+   "lines": [
+    {
+     "text": "Air is made of tiny molecules, mostly nitrogen and oxygen."
+    },
+    {
+     "text": "Each molecule is about a third of a nanometer across, far smaller than any light wave.",
+     "mark": [
+      "N1",
+      "N2"
+     ]
+    },
+    {
+     "text": "When light hits particles that small, a little of it is scattered off in every direction."
+    },
+    {
+     "text": "This is called Rayleigh scattering, and it strongly favors short waves.",
+     "mark": "E1"
+    },
+    {
+     "text": "The amount scattered grows as one over the wavelength to the fourth power.",
+     "mark": "E1"
+    },
+    {
+     "text": "Divide seven hundred by four hundred fifty, and raise the result to the fourth power.",
+     "mark": "E2"
+    },
+    {
+     "text": "You get almost six, so blue light is scattered nearly six times more than red.",
+     "mark": [
+      "G:b450",
+      "G:r700"
+     ]
+    },
+    {
+     "text": "The chart shows the same thing: the bars grow taller with every step toward blue.",
+     "mark": "chart"
+    },
+    {
+     "text": "Shorter waves scatter far more, and that one rule explains both skies.",
+     "mark": "F"
+    }
+   ]
+  },
+  {
+   "title": "Why the daytime sky is blue",
+   "image": "board04.png",
+   "marks": {
+    "G:sun": {
+     "ring": [
+      0.4532,
+      0.2909
+     ],
+     "r": 0.07
+    },
+    "G:you": {
+     "ring": [
+      0.2031,
+      0.7006
+     ],
+     "r": 0.07
+    },
+    "N1": {
+     "box": [
+      0.547,
+      0.2687,
+      0.9237,
+      0.3313
+     ]
+    },
+    "N2": {
+     "box": [
+      0.547,
+      0.3737,
+      0.9091,
+      0.4363
+     ]
+    },
+    "N3": {
+     "box": [
+      0.547,
+      0.4787,
+      0.8872,
+      0.5963
+     ]
+    },
+    "N3b": {
+     "box": [
+      0.547,
+      0.5337,
+      0.7022,
+      0.5963
+     ]
+    },
+    "F": {
+     "box": [
+      0.062,
+      0.8712,
+      0.5021,
+      0.9338
+     ]
+    }
+   },
+   "lines": [
+    {
+     "text": "As sunlight crosses the sky, molecules scatter some of it in every direction.",
+     "mark": "G:sun"
+    },
+    {
+     "text": "Because blue scatters most, scattered blue light reaches your eyes from all over the sky.",
+     "mark": [
+      "N1",
+      "G:you"
+     ]
+    },
+    {
+     "text": "Wherever you look away from the sun, you see that scattered blue.",
+     "mark": "N1"
+    },
+    {
+     "text": "But violet waves are even shorter, so why is the sky not violet?"
+    },
+    {
+     "text": "First, sunlight contains less violet than blue to begin with.",
+     "mark": "N2"
+    },
+    {
+     "text": "Second, our eyes are much more sensitive to blue than to violet.",
+     "mark": "N3"
+    },
+    {
+     "text": "Mixed together, the scattered light looks sky blue.",
+     "mark": "F"
+    }
+   ]
+  },
+  {
+   "title": "Sunset: the long way through the air",
+   "image": "board05.png",
+   "marks": {
+    "noon": {
+     "box": [
+      0.278,
+      0.2217,
+      0.431,
+      0.2766
+     ]
+    },
+    "sunset": {
+     "box": [
+      0.0462,
+      0.2773,
+      0.206,
+      0.3322
+     ]
+    },
+    "E1": {
+     "box": [
+      0.547,
+      0.2687,
+      0.7868,
+      0.3313
+     ]
+    },
+    "E2": {
+     "box": [
+      0.547,
+      0.3737,
+      0.8684,
+      0.4363
+     ]
+    },
+    "N1": {
+     "box": [
+      0.547,
+      0.4787,
+      0.9003,
+      0.5413
+     ]
+    },
+    "F": {
+     "box": [
+      0.062,
+      0.8712,
+      0.7862,
+      0.9338
+     ]
+    }
+   },
+   "lines": [
+    {
+     "text": "Now picture the sun at noon, high overhead.",
+     "mark": "noon"
+    },
+    {
+     "text": "Its light crosses the atmosphere by the shortest route, straight down.",
+     "mark": "E1"
+    },
+    {
+     "text": "Scientists call that thickness one air mass.",
+     "mark": "E1"
+    },
+    {
+     "text": "At sunset, the sun sits on the horizon, and its light skims sideways through the air.",
+     "mark": "sunset"
+    },
+    {
+     "text": "That slanted path is about thirty eight times longer than the path at noon.",
+     "mark": "E2"
+    },
+    {
+     "text": "Along that long path, the blue light is scattered out of the beam again and again.",
+     "mark": "N1"
+    },
+    {
+     "text": "By the time the light reaches you, most of the blue has been removed.",
+     "mark": "F"
+    }
+   ]
+  },
+  {
+   "title": "What survives the trip",
+   "image": "board06.png",
+   "marks": {
+    "graph": {
+     "box": [
+      0.067,
+      0.2472,
+      0.503,
+      0.7928
+     ]
+    },
+    "G:noon450": {
+     "ring": [
+      0.1545,
+      0.383
+     ],
+     "r": 0.035
+    },
+    "G:dusk450": {
+     "ring": [
+      0.1545,
+      0.7799
+     ],
+     "r": 0.035
+    },
+    "G:dusk700": {
+     "ring": [
+      0.4382,
+      0.6561
+     ],
+     "r": 0.035
+    },
+    "E1": {
+     "box": [
+      0.547,
+      0.2687,
+      0.8292,
+      0.3313
+     ]
+    },
+    "E2": {
+     "box": [
+      0.547,
+      0.3737,
+      0.8663,
+      0.4363
+     ]
+    },
+    "N1": {
+     "box": [
+      0.547,
+      0.4818,
+      0.9226,
+      0.5382
+     ]
+    },
+    "F": {
+     "box": [
+      0.062,
+      0.8712,
+      0.6103,
+      0.9338
+     ]
+    }
+   },
+   "lines": [
+    {
+     "text": "We can put numbers on this with the same scattering law."
+    },
+    {
+     "text": "This graph shows how much of each color gets straight through the air.",
+     "mark": "graph"
+    },
+    {
+     "text": "At noon, about eighty percent of the blue light and ninety six percent of the red light make it through.",
+     "mark": [
+      "E1",
+      "G:noon450"
+     ]
+    },
+    {
+     "text": "So the sun itself still looks white at midday."
+    },
+    {
+     "text": "At sunset, only about two hundredths of a percent of the blue light survives.",
+     "mark": [
+      "E2",
+      "G:dusk450"
+     ]
+    },
+    {
+     "text": "But about a quarter of the red light still gets through.",
+     "mark": [
+      "E2",
+      "G:dusk700"
+     ]
+    },
+    {
+     "text": "That leftover light is mostly red and orange, so the sun and the clouds around it glow red.",
+     "mark": "F"
+    },
+    {
+     "text": "These numbers come from a clean air model, and real dust and haze often make sunsets even more vivid.",
+     "mark": "N1"
+    }
+   ]
+  },
+  {
+   "title": "Putting it together",
+   "image": "board07.png",
+   "marks": {
+    "E1": {
+     "box": [
+      0.052,
+      0.2679,
+      0.3938,
+      0.3321
+     ]
+    },
+    "E2": {
+     "box": [
+      0.052,
+      0.3829,
+      0.4438,
+      0.4471
+     ]
+    },
+    "E3": {
+     "box": [
+      0.052,
+      0.4979,
+      0.4366,
+      0.5621
+     ]
+    },
+    "E4": {
+     "box": [
+      0.052,
+      0.6129,
+      0.4929,
+      0.6771
+     ]
+    },
+    "Q": {
+     "box": [
+      0.582,
+      0.3871,
+      0.8977,
+      0.5929
+     ]
+    },
+    "Q2": {
+     "box": [
+      0.582,
+      0.4571,
+      0.8756,
+      0.5229
+     ]
+    },
+    "Q3": {
+     "box": [
+      0.582,
+      0.5271,
+      0.8471,
+      0.5929
+     ]
+    },
+    "F": {
+     "box": [
+      0.062,
+      0.8712,
+      0.775,
+      0.9338
+     ]
+    }
+   },
+   "lines": [
+    {
+     "text": "Let's put the whole story together."
+    },
+    {
+     "text": "Sunlight carries every color.",
+     "mark": "E1"
+    },
+    {
+     "text": "Short blue waves scatter far more than long red waves, as one over the wavelength to the fourth.",
+     "mark": "E2"
+    },
+    {
+     "text": "During the day, that scattered blue fills the sky from every direction.",
+     "mark": "E3"
+    },
+    {
+     "text": "At sunset, the long path through the air strips the blue away, leaving reds and oranges.",
+     "mark": "E4"
+    },
+    {
+     "text": "Now a quick question to test yourself."
+    },
+    {
+     "text": "If tiny molecules make the sky blue, why are clouds white instead of blue?",
+     "mark": "Q",
+     "pause_after": 5.0
+    }
+   ]
+  },
+  {
+   "title": "The answer, and a bonus",
+   "image": "board08.png",
+   "marks": {
+    "G:drop": {
+     "ring": [
+      0.3762,
+      0.51
+     ],
+     "r": 0.17
+    },
+    "E1": {
+     "box": [
+      0.547,
+      0.2687,
+      0.8627,
+      0.4063
+     ]
+    },
+    "E1b": {
+     "box": [
+      0.547,
+      0.3437,
+      0.8514,
+      0.4063
+     ]
+    },
+    "E2": {
+     "box": [
+      0.547,
+      0.4787,
+      0.8028,
+      0.6163
+     ]
+    },
+    "E2b": {
+     "box": [
+      0.547,
+      0.5537,
+      0.7745,
+      0.6163
+     ]
+    },
+    "N1": {
+     "box": [
+      0.547,
+      0.691,
+      0.8203,
+      0.824
+     ]
+    },
+    "N1b": {
+     "box": [
+      0.547,
+      0.766,
+      0.7219,
+      0.824
+     ]
+    },
+    "F": {
+     "box": [
+      0.062,
+      0.8712,
+      0.553,
+      0.9338
+     ]
+    }
+   },
+   "lines": [
+    {
+     "text": "Cloud droplets are huge compared with air molecules, thousands of times wider.",
+     "mark": [
+      "E1",
+      "G:drop"
+     ]
+    },
+    {
+     "text": "Particles that big scatter all colors about equally.",
+     "mark": "E2"
+    },
+    {
+     "text": "And when every color is scattered together, the result looks white.",
+     "mark": "F"
+    },
+    {
+     "text": "Here is a bonus fact."
+    },
+    {
+     "text": "On Mars, fine dust in the air scatters light differently, and Martian sunsets actually look blue.",
+     "mark": "N1"
+    },
+    {
+     "text": "So the next time you watch a sunset, remember that you are seeing the light that survived the longest trip through the sky."
+    }
+   ]
+  }
+ ]
+}
