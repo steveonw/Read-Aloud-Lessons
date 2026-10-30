@@ -68,6 +68,19 @@ label track, point `plan.json` at them, and render.
 Several voices (dialogue, characters) work too: add a `"cast"` and a `"speaker"` per line in
 `plan.json`; voices are level-matched and British voices get British pronunciation.
 
+## Motion comics (stories with characters)
+
+For a story rather than a lesson (a sketch, a parody ad, a short drama) with painted or
+image-generated panels, `tools/motion_comic.py` makes a motion comic: every shot moves, cuts
+and effects (shakes, flashes, debris, falling props) land on spoken **words**, characters get
+their own voices and pitch, and a music bed and sound effects are mixed to about -14 LUFS.
+Everything is anchored to lines and words, never to seconds, so new narration re-times the whole
+edit. The workflow is `skill/motion-comic-video/SKILL.md`.
+
+```bash
+python examples/motion-comic-smoke/run.py      # a few seconds, no voice or art needed
+```
+
 ## Repository
 
 | Path | What |
@@ -76,14 +89,21 @@ Several voices (dialogue, characters) work too: add a `"cast"` and a `"speaker"`
 | `tools/narrate.py` | local narration (Kokoro, Kitten, Piper) with exact sentence labels, multi-voice cast, sentence cache |
 | `tools/check_audio.py` | listen-free audio check against the plan: stale narration, misheard words, silence, clipping, pauses, quiz think time, per-speaker pitch |
 | `tools/board.py` | the `Board` drawing helper for single boards and 2x2 panel pages |
+| `tools/motion_comic.py` | motion comic renderer: shots with camera moves, word-anchored cuts/effects/sounds, cards, lower thirds, music, -14 LUFS mix; `--check`, `--contact-sheet`, `--clip` |
+| `tools/voice_fx.py` | per-character pitch/echo and tight pauses (trims TTS padding, rewrites exact labels) |
+| `tools/word_times.py` | word start times for every line from the speech recognizer, for word anchors |
+| `tools/upscale.py` | 4x Real-ESRGAN upscale of small painted panels (CPU) |
 | `skill/SKILL.md` | the full workflow (planning, writing, drawing, checking, timing, rendering) as an AI skill |
+| `skill/motion-comic-video/SKILL.md` | the motion comic workflow as a separate AI skill |
 | `examples/smoke-test` | 10-second toolchain check |
 | `examples/sky-blue` | why the sky is blue: 8 single boards, about 5 minutes, 15 physics checks |
 | `examples/leap-years` | why leap years exist: 2x2 panel pages, three voices, a quiz, 16 checks |
+| `examples/motion-comic-smoke` | motion comic toolchain check: code-drawn panels, stand-in narration, every effect |
+| `examples/zorblooks` | a 3-minute parody ad plan: 7 voices, 61 shots, word-timed gags (art not included) |
 
 ## Using it with an AI
 
-Give the AI `skill/SKILL.md`. With Claude it can be added as a skill; it clones this repo for the
+Give the AI `skill/SKILL.md` (lessons) or `skill/motion-comic-video/SKILL.md` (stories). With Claude it can be added as a skill; it clones this repo for the
 tools, so no code is pasted into the conversation. Any AI with Python and ffmpeg can follow it.
 
 ## Credits
